@@ -1,46 +1,85 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     background-color: #7858A6;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
     font-weight: 400;
+    position: relative;
 }
 
+/* Header Section */
+
 header {
-    background-color: #371B58;
-    padding: .5rem;
-    display: flex;
     align-items: center;
+    background-color: #371B58;
+    display: flex;
     justify-content: space-between;
+    padding: .5rem;
     position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 a {
-    font-size: 1rem;
-    text-decoration: none;
-    cursor: pointer;
     color: #ffffff;
-    font-weight: bolder;
+    cursor: pointer;
     margin: 0 1rem;
-    padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-decoration: none;
 }
 
 .logo {
-    font-family: "Tangerine", script;
-    font-weight: bolder;
+    font-family: "Tangerine", Arial, Helvetica, sans-serif;
     font-size: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    font-weight: bolder;
     margin-left: 4rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .last {
     margin-right: 4rem;
+}
+
+/* Slide Section */
+
+.slide {
+    background-color: #371B58;
+    height: 35rem;
+    padding: 15rem;
+}
+
+.slide img {
+    position: absolute;
+    right: 8rem;
+    top: 6.7rem;
+    width: 40%;
+}
+
+.intro {
+    position: relative;
+    right: 23rem;
+    text-align: center;
+}
+
+.intro h1 {
+    color: #8929ff;
+    font-family: "Tangerine", Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+
 }
