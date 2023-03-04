@@ -25,6 +25,11 @@ h2 {
     font-size: 3.5rem;
 }
 
+h3 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
 /* Header Section */
 
 header {
@@ -95,19 +100,58 @@ a {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin: 4rem auto;
-    padding-top: 6rem;
+    margin: 8rem auto 6rem;
+    padding-top: 10rem;
     text-align: justify;
-    width: 60%;
+    width: 80%;
 }
 
 #about img {
     float: left;
-    width: 25%;
+    width: 30%;
+    margin: 0 auto;
 }
 
 .info {
     line-height: 1.5;
     margin: auto;
     width: 35%;
+}
+
+/* Project Section */
+
+#projects {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    padding-top: 10rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.project {
+    margin: 0 2rem;
+}
+
+.project-img {
+    width: 100%;
+}
+
+.project button {
+    padding: .5rem 2rem;
+    margin: 1rem;
+    background-color: #371B58;
+    color: white;
+    border: none;
+    border-radius: .25rem;
 }
