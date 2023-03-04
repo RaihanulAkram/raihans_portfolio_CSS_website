@@ -13,6 +13,18 @@ body {
     position: relative;
 }
 
+h1 {
+    color: #8929ff;
+    font-family: "Tangerine", Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
 /* Header Section */
 
 header {
@@ -54,7 +66,7 @@ a {
 .slide {
     background-color: #371B58;
     height: 35rem;
-    padding: 15rem;
+    padding: 20rem;
 }
 
 .slide img {
@@ -67,19 +79,35 @@ a {
 .intro {
     position: relative;
     right: 23rem;
+    top: -5rem;
     text-align: center;
-}
-
-.intro h1 {
-    color: #8929ff;
-    font-family: "Tangerine", Arial, Helvetica, sans-serif;
-    font-size: 5rem;
-    font-weight: bolder;
-    margin-bottom: .5rem;
 }
 
 .intro p {
     font-size: 1.5rem;
     margin-bottom: .5rem;
 
+}
+
+/* About Section */
+
+#about {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    padding-top: 6rem;
+    text-align: justify;
+    width: 60%;
+}
+
+#about img {
+    float: left;
+    width: 25%;
+}
+
+.info {
+    line-height: 1.5;
+    margin: auto;
+    width: 35%;
 }
