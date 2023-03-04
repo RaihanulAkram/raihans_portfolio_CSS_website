@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7858A6;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #371B58;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.logo {
+    font-family: "Tangerine", script;
+    font-weight: bolder;
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.last {
+    margin-right: 4rem;
+}
