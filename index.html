@@ -28,8 +28,8 @@
             <a href="#start">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="/skills">Skills</a>
-            <a class="last" href="/contact">Contact</a>
+            <a href="#skills">Skills</a>
+            <a class="last" href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -61,111 +61,170 @@
             <div class="project">
                 <img class="project-img" src="./img/raihans_personal_HTML_website.png" alt="raihans HTML cv website">
                 <h3>Raihans Personal HTML CV</h3>
-                <a href="https://github.com/RaihanulAkram/raihans_personal_HTML_website">View Source Code on
-                    Github</a><br>
-                <button>Visit</button>
+                <div class="button-container">
+
+                    <button>
+                        <a href="https://github.com/RaihanulAkram/raihans_personal_HTML_website">View Source Code in
+                            Github</a>
+                    </button><br>
+
+                    <button>
+                        <a href="https://raihanulakram.github.io/raihans_personal_HTML_website" target="_blank">Visit
+                            Website</a>
+                    </button>
+                </div>
             </div>
             <div class="project">
                 <img class="project-img" src="./img/raihans_portfolio_css_project.png"
                     alt="raihans portfolio css website">
                 <h3>Raihans Portfolio CSS Website</h3>
-                <a href="https://github.com/RaihanulAkram/raihans_portfolio_CSS_website">View Source Code on
-                    Github</a><br>
-                <button>Visit</button>
+                <div class="button-container">
+                    <button>
+                        <a href="https://github.com/RaihanulAkram/raihans_portfolio_CSS_website">View Source Code in
+                            Github</a>
+                    </button><br>
+                    <button>Visit Website</button>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <div>
-            <h3>HTML</h3>
-            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
-                displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and
-                scripting languages such as JavaScript.</p>
-        </div>
-        <div>
-            <h3>Git</h3>
-            <p>Git is a distributed version control system that tracks changes in any set of computer files, usually
-                used for coordinating work among programmers collaboratively developing source code during software
-                development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
-            </p>
-        </div>
-        <div>
-            <h3>Github</h3>
-            <p>GitHub, Inc. is an Internet hosting service for software development and version control using Git. It
-                provides the distributed version control of Git plus access control, bug tracking, software feature
-                requests, task management, continuous integration, and wikis for every project.</p>
-        </div>
-        <div>
-            <h3>CSS</h3>
-            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
-                written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web,
-                alongside HTML and JavaScript.</p>
-        </div>
-        <div>
-            <h3>Bootstrap</h3>
-            <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
-                development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons,
-                navigation, and other interface components.</p>
-        </div>
-        <div>
-            <h3>Tailwind</h3>
-            <p>Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS
-                frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as
-                buttons or tables.</p>
-        </div>
-        <div>
-            <h3>MUI</h3>
-            <p>MUI is a massive library of UI components designers and developers can use to build React applications.
-                The open-source project follows Google's guidelines for creating components, giving you a customizable
-                library of foundational and advanced UI elements.</p>
-        </div>
-        <div>
-            <h3>JavaScript</h3>
-            <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of
-                the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client
-                side for webpage behavior, often incorporating third-party libraries.</p>
-        </div>
-        <div>
-            <h3>React Js</h3>
-            <p>React is a free and open-source front-end JavaScript library for building user interfaces based on
-                components. It is maintained by Meta and a community of individual developers and companies.</p>
-        </div>
-        <div>
-            <h3>Netlify</h3>
-            <p>Netlify is a remote-first cloud computing company that offers a development platform that includes build,
-                deploy, and serverless backend services for web applications and dynamic websites.</p>
-        </div>
-        <div>
-            <h3>Firebase</h3>
-            <p>Firebase is a set of hosting services for any type of application. It offers NoSQL and real-time hosting
-                of databases, content, social authentication, and notifications, or services, such as a real-time
-                communication server.</p>
-        </div>
-        <div>
-            <h3>Node Js</h3>
-            <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS,
-                and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and
-                executes JavaScript code outside a web browser.</p>
-        </div>
-        <div>
-            <h3>Express Js</h3>
-            <p>Express.js, or simply Express, is a back end web application framework for building RESTful APIs with
-                Node.js, released as free and open-source software under the MIT License. It is designed for building
-                web applications and APIs. It has been called the de facto standard server framework for Node.js.</p>
-        </div>
-        <div>
-            <h3>MongoDB</h3>
-            <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL
-                database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by
-                MongoDB Inc. and licensed under the Server Side Public License which is deemed non-free by several
-                distributions.</p>
+        <div id="skill-container">
+            <div class="skill">
+                <img src="./img/skills/html.png" alt="html logo">
+                <h3>HTML</h3>
+                <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                    displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and
+                    scripting languages such as JavaScript.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/git.png" alt="git logo">
+                <h3>Git</h3>
+                <p>Git is a distributed version control system that tracks changes in any set of computer files, usually
+                    used for coordinating work among programmers collaboratively developing source code during software
+                    development. Its goals include speed, data integrity, and support for distributed, non-linear
+                    workflows.
+                </p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/github.png" alt="github logo">
+                <h3>Github</h3>
+                <p>GitHub, Inc. is an Internet hosting service for software development and version control using Git.
+                    It
+                    provides the distributed version control of Git plus access control, bug tracking, software feature
+                    requests, task management, continuous integration, and wikis for every project.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/css-3.png" alt="css logo">
+                <h3>CSS</h3>
+                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                    written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide
+                    Web,
+                    alongside HTML and JavaScript.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/bootstrap.png" alt="bootstrap logo">
+                <h3>Bootstrap</h3>
+                <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web
+                    development. It contains HTML, CSS and JavaScript-based design templates for typography, forms,
+                    buttons,
+                    navigation, and other interface components.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/tailwind.png" alt="tailwind logo">
+                <h3>Tailwind</h3>
+                <p>Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other
+                    CSS
+                    frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as
+                    buttons or tables.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/mui.png" alt="mui logo">
+                <h3>MUI</h3>
+                <p>MUI is a massive library of UI components designers and developers can use to build React
+                    applications.
+                    The open-source project follows Google's guidelines for creating components, giving you a
+                    customizable
+                    library of foundational and advanced UI elements.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/js.png" alt="js logo">
+                <h3>JavaScript</h3>
+                <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies
+                    of
+                    the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client
+                    side for webpage behavior, often incorporating third-party libraries.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/react.png" alt="react logo">
+                <h3>React Js</h3>
+                <p>React is a free and open-source front-end JavaScript library for building user interfaces based on
+                    components. It is maintained by Meta and a community of individual developers and companies.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/netlify.png" alt="netlify logo">
+                <h3>Netlify</h3>
+                <p>Netlify is a remote-first cloud computing company that offers a development platform that includes
+                    build,
+                    deploy, and serverless backend services for web applications and dynamic websites.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/firebase.png" alt="firebase logo">
+                <h3>Firebase</h3>
+                <p>Firebase is a set of hosting services for any type of application. It offers NoSQL and real-time
+                    hosting
+                    of databases, content, social authentication, and notifications, or services, such as a real-time
+                    communication server.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/node-js.png" alt="node js logo">
+                <h3>Node Js</h3>
+                <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix,
+                    macOS,
+                    and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine,
+                    and
+                    executes JavaScript code outside a web browser.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/expressjs.png" alt="expressjs logo">
+                <h3>Express Js</h3>
+                <p>Express.js, or simply Express, is a back end web application framework for building RESTful APIs with
+                    Node.js, released as free and open-source software under the MIT License. It is designed for
+                    building
+                    web applications and APIs. It has been called the de facto standard server framework for Node.js.
+                </p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/mongodb.png" alt="">
+                <h3>MongoDB</h3>
+                <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a
+                    NoSQL
+                    database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by
+                    MongoDB Inc. and licensed under the Server Side Public License which is deemed non-free by several
+                    distributions.</p>
+            </div>
+            <div class="skill">
+                <img src="./img/skills/vercel.png" alt="vercel logo">
+                <h3>Vercel</h3>
+                <p>Vercel Inc., formerly Zeit, is an American cloud platform as a service company. The company maintains
+                    the
+                    Next.js web development framework. Vercel's architecture is built around Jamstack, and deployments
+                    are
+                    handled through Git repositories. Vercel is a member of the MACH Alliance.</p>
+            </div>
         </div>
     </section>
 
     <Section id="contact">
-        <h2>Get in touch with me</h2>
+        <h2>Contact Me</h2>
+        <div>
+            <input type="text" placeholder="Your Name"><br>
+            <input type="email" placeholder="Your Email"><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea><br>
+            <button id="btn">Submit</button>
+        </div>
     </Section>
 
     <footer id="footer">

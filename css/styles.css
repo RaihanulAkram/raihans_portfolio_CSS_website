@@ -27,7 +27,12 @@ h2 {
 
 h3 {
     font-size: 2rem;
-    margin: 1rem;
+}
+
+nav a:hover,
+.logo:hover {
+    color: #8929ff;
+    font-weight: bolder;
 }
 
 /* Header Section */
@@ -70,21 +75,21 @@ a {
 
 .slide {
     background-color: #371B58;
-    height: 35rem;
+    height: 58rem;
     padding: 20rem;
 }
 
 .slide img {
     position: absolute;
     right: 8rem;
-    top: 6.7rem;
+    top: 12rem;
     width: 40%;
 }
 
 .intro {
     position: relative;
     right: 23rem;
-    top: -5rem;
+    top: 1rem;
     text-align: center;
 }
 
@@ -101,7 +106,7 @@ a {
     display: flex;
     justify-content: center;
     margin: 8rem auto 6rem;
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: justify;
     width: 80%;
 }
@@ -129,7 +134,7 @@ a {
 #projects h2 {
     padding-top: 10rem;
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .projects-container {
@@ -143,15 +148,130 @@ a {
     margin: 0 2rem;
 }
 
+.project h3 {
+    margin-left: 1rem;
+}
+
 .project-img {
     width: 100%;
+    border: .25rem solid #8929ff;
+    border-radius: .25rem;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .project button {
     padding: .5rem 2rem;
     margin: 1rem;
-    background-color: #371B58;
+    background-color: #8929ff;
     color: white;
     border: none;
     border-radius: .25rem;
+}
+
+.project button:hover {
+    color: #8929ff;
+    background-color: #371B58;
+}
+
+/* Skills Section */
+#skills {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+#skill-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.skill {
+    width: 100%;
+    border: 2px solid #8929ff;
+    border-radius: 1rem;
+    padding: 1rem;
+    height: 450px;
+    text-align: center;
+}
+
+.skill img {
+    margin: 1.5rem;
+    width: 150px;
+    height: 150px;
+}
+
+.skill h3 {
+    margin: .5rem auto;
+}
+
+.skill p {
+    padding: .5rem;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+
+#contact {
+    width: 80%;
+    padding: 8rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact div {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+#contact input,
+textarea {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 1rem;
+    border: .15rem solid #8929ff;
+    border-radius: .25rem;
+}
+
+::placeholder,
+textarea::placeholder {
+    color: #fff;
+    font-size: 1rem;
+}
+
+#contact :focus {
+    border: .15rem solid #371B58;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    border-radius: .25rem;
+}
+
+#contact button {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    background-color: #8929ff;
+    border: none;
+    border-radius: .25rem;
+}
+
+#contact button:hover {
+    background-color: #371B58;
+    color: #8929ff;
 }
