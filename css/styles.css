@@ -164,7 +164,7 @@ a {
     justify-content: space-between;
 }
 
-.project button {
+.project a {
     padding: .5rem 2rem;
     margin: 1rem;
     background-color: #8929ff;
@@ -173,7 +173,7 @@ a {
     border-radius: .25rem;
 }
 
-.project button:hover {
+.project a:hover {
     color: #8929ff;
     background-color: #371B58;
 }
@@ -260,10 +260,11 @@ textarea::placeholder {
     border-radius: .25rem;
 }
 
-#contact button {
+#btn {
     width: 50%;
     padding: 1rem;
-    margin-bottom: 1rem;
+    text-align: center;
+    margin: 1rem;
     color: #fff;
     font-size: 1rem;
     background-color: #8929ff;
@@ -271,7 +272,7 @@ textarea::placeholder {
     border-radius: .25rem;
 }
 
-#contact button:hover {
+#btn:hover {
     background-color: #371B58;
     color: #8929ff;
 }
@@ -282,7 +283,7 @@ textarea::placeholder {
 #footer {
     width: 100%;
     background-color: #371B58;
-    padding: 1rem;
+    padding: 3rem;
     text-align: center;
 }
 
